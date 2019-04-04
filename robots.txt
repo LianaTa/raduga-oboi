@@ -1,0 +1,9 @@
+﻿User-agent: *
+Allow: /
+Disallow: /bootstrap
+Disallow: /cgi-bin
+Disallow: /css
+Disallow: /gallery
+Disallow: /js
+Disallow: /php
+Sitemap: http://raduga-oboi.net/sitemap.xml

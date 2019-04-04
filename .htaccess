@@ -1,0 +1,19 @@
+AddDefaultCharset UTF-8
+ErrorDocument 404 /404.php
+Options +FollowSymlinks
+RewriteEngine on 
+RewriteBase /
+RewriteCond %{HTTP_HOST} ^www.raduga-oboi.net$ [NC]
+RewriteRule ^(.*)$ http://raduga-oboi.net/$1 [R=301,L]
+RewriteRule ^price/$ price.php [L]
+RewriteRule ^zakaz/$ zakaz.php [L]
+RewriteRule ^gotovie_oboi/$ gotovie_oboi.php [L]
+RewriteRule ^write/$ writeBack.php [L]
+RewriteRule ^call/$ callBack.php [L]
+RewriteRule ^tekstury-fotooboev/$ tekstury-fotooboev.php [L]
+RewriteRule ^kak_kleit_fotooboi/$ kak_kleit_fotooboi.php [L]
+RewriteRule ^contacts/$ contacts.php [L]
+RewriteRule ^deliver/$ deliver.php [L]
+RewriteRule ^sitemap/$ sitemap.php [L]
+RewriteRule ^catalog/$ catalog.php [L]
+RewriteRule ^catalog/([a-zA-Z0-9_\-,\ ]+)/$    category.php?cat=$1 [L]
