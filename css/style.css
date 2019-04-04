@@ -1,0 +1,42 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700&subset=latin,cyrillic);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed&subset=latin,cyrillic);
+@import url(http://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700&subset=latin,cyrillic);
+@font-face {
+    font-family: Glametrix Light; /* имя шрифта для CSS правил */
+    src: url(glametrix.otf); /* если шрифт не установлен, тогда загружаем его по указанному пути */
+  }
+body { background: url(/image/fon.jpg) repeat-x,
+       #000; 
+       /*-moz-background-size: 100%; /* Firefox 3.6+ */
+      /* -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+      /* -o-background-size: 100%; /* Opera 9.6+ */
+       /*background-size: 100%; /* Современные браузеры */
+
+}
+.blank {height:10px;}
+.header{ font-size: 18pt;}
+.container{ font-size: 14pt;font-family: 'PT Sans Caption', sans-serif;}
+.name{ color: #1E90FF;}
+.oboi_now{border: 1px solid  #dddddd; padding:2px;}
+.klei ol li {line-height: 1.5;}
+.image{  padding: 3px;}
+.tekstura { width: 260px; float:left; padding: 3px;}
+.sign{ width: 200px;margin: 0 auto 5px;}
+.container{ background-color: #fff; padding-bottom:5px;float:none; margin: 0 auto;}
+.dropdown-menu li a:hover{ background: #FFDEAD; color: #000;}
+#navMenu li a {font-family: 'Roboto Condensed', sans-serif;/*font-family: 'Open Sans', sans-serif; */font-size: 16pt; color: #000; }
+#navMenu li a:focus{ border:none; background: #fff;}
+.navbar,.navbar a, #navMenu { }
+.navbar { margin-top: 30px;}
+.thumbnail{ height: 150px; padding-top:20px;}
+.thumbnails{ float:none; margin: 0 auto;} 
+.plusi li{ padding-bottom:10px;}
+.palitra {float:none; margin: 0 auto;}
+.catalog li { height: 200px;}
+.catalog li a:hover{ cursor:pointer; }
+.catalog li h5:hover{ color:#0088cc; }
+.border{ border-bottom: 1px solid  #dddddd;}
+.info {border: 1px solid  #dddddd; padding: 10px;}
+.footer{ background: #1E90FF;  float: none; margin: 0 auto; padding: 5px;margin-bottom: 10px;}
+.developer {text-align:right; font-size:12pt;}
+.developer a{ color: #fff;}
